@@ -1,6 +1,6 @@
 `ifndef __BASE_ITERATOR_SVH__
 `define __BASE_ITERATOR_SVH__
-virtual class base_iterator#(type T_INDEX = int, type T_VALUE);
+virtual class base_iterator#(type T_INDEX = int, type T_VALUE = int);
   protected bit forward_iteration;
 
   function new(bit forward_iteration);

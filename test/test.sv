@@ -3,7 +3,7 @@ module top();
 
   array#(string)            test_array;
   ordered_map#(string, int) test_map;
-  int                       int_queue;
+  int                       int_queue[$];
   int temp;
 
   initial begin

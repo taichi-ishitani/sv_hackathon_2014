@@ -15,7 +15,7 @@ virtual class container#(type T_INDEX = int, type T_VALUE = int);
 
   pure virtual function void clear();
 
-  virtual function base_iterator#(T_INDEX, T_VALUE) get_iterator();
-  virtual function base_iterator#(T_INDEX, T_VALUE) get_riterator();
+  pure virtual function base_iterator#(T_INDEX, T_VALUE) get_iterator();
+  pure virtual function base_iterator#(T_INDEX, T_VALUE) get_riterator();
 endclass
 `endif
